@@ -1,0 +1,28 @@
+import jp.ac.uryukyu.ie.ex3.pair04.*;
+
+public class Main{
+    public static void main(String args[]){
+	Dice dice = new Dice();
+	dice.play();
+	System.out.println(dice.getpackege jp.ac.uryukyu.ie.ex3.pair04                                             
+                                                                                
+			   public class Dice{                                                              
+	    private int value;                                                       
+	    public void Dice(){                                                      
+		play();                                                           
+	    }                                                                        
+	    public int getvalue(){                                                   
+		return value;                                                            
+	    }                                                                        
+                                                                                
+	    public void setvalue(int value){                                        
+		this.value = value;                                                      
+	    }                                                                        
+                                                                                
+	    public void play(){                                                      
+		this.value = (int)(Math.random()*6)+1;                                   
+	    }                                                                        
+	}                                                                               
+ alue());
+    }
+}
